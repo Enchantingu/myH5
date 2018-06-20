@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>开个头</title>
+    <style type="text/css">
+        body{
+            background-image: url(./images/0.jpg);
+            background-size: 100% 100%;
+            height: 100%;
+        }
+        html{
+            height: 100%
+        }
+        @keyframes myfirst {
+            0% {opacity: 0}
+            25% {opacity: 100}
+            50% {opacity: 0}
+            100% {opacity: 0}
+        }
+        @keyframes mysecond {
+            0% {opacity: 0}
+            50% {opacity: 0}
+            75% {opacity: 100}
+            100%{opacity: 0}
+        }
+        p {
+            font-size: 100px;
+            position: absolute;
+            width: 100%;
+            text-align: center;
+            animation: myfirst 24.267s infinite;
+        }
+        #jiuli{
+            animation: myfirst 24.267s infinite;
+        }
+        #huibai{
+            animation: mysecond 24.267s infinite;
+        }
+    </style>
+</head>
+<body>
+<audio src="wav/bgm.mp3"  autoplay="autoplay" loop="loop">
+</audio>
+
+<p id="jiuli">旧历的年底毕竟最像年底，村镇上不必说就在天空中也显出将到新年的气象来。</p>
+<p id="huibai">灰白色的沉重的晚云中间时时发出闪光，接着一声钝响，是送灶的爆竹。</p>
+
+</body>
+</html>
